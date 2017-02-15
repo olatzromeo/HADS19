@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProyectoHADS", "WebApplication1\ProyectoHADS.vbproj", "{D12D9DBC-DF71-499A-B2CB-85D1EEC9C965}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Librerias", "Librerias\Librerias.vbproj", "{1E1566E6-FDC0-4CB4-B871-5AAF89D6EBD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12D9DBC-DF71-499A-B2CB-85D1EEC9C965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12D9DBC-DF71-499A-B2CB-85D1EEC9C965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12D9DBC-DF71-499A-B2CB-85D1EEC9C965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12D9DBC-DF71-499A-B2CB-85D1EEC9C965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1566E6-FDC0-4CB4-B871-5AAF89D6EBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1566E6-FDC0-4CB4-B871-5AAF89D6EBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1566E6-FDC0-4CB4-B871-5AAF89D6EBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1566E6-FDC0-4CB4-B871-5AAF89D6EBD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
