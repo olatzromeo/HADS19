@@ -11,7 +11,7 @@ Public Class BD
 
     Public Shared Function conectarDB() As String
         Try
-            conexion.ConnectionString = "Data Source=158.227.106.20;Initial_Catalog=g004611.HADS19_Usuarios.dbo;Integrated_Security=False;_UserID=HADS19;Password=serpiente;_Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"
+            conexion.ConnectionString = "Data Source=158.227.106.20;Initial Catalog=HADS19_Usuarios;Integrated_Security=False;User ID=HADS19;Password=serpiente;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False"
             conexion.Open()
         Catch ex As Exception
             Return "ERROR DE CONEXIÓN: " + ex.Message
@@ -24,7 +24,7 @@ Public Class BD
     End Sub
 
     Public Shared Function insertarUsuario(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal pregunta As String, ByVal respuesta As String, ByVal DNI As String, ByVal numconfir As Integer, ByVal confirmado As Boolean, ByVal grupo As String, ByVal tipo As String, ByVal pass As String) As String
-        Dim st = "insert into Usuarios values ('" & email & "','" & nombre & "','" & apellidos & "','" & DNI & "','" & pregunta & "','" & respuesta & "','" & DNI & "'," & numconfir & "," & confirmado & "," & grupo & "," & tipo & "," & pass & " )"
+        Dim st = "insert into Usuarios(email,nombre,) values ('" & email & "','" & nombre & "','" & apellidos & "','" & pregunta & "','" & respuesta & "','" & DNI & "'," & numconfir & "," & confirmado & "," & grupo & "," & tipo & "," & pass & " )"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
         Try
